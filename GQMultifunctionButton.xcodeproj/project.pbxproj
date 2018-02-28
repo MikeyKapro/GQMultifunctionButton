@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		378676B1204693200047B844 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 378676B0204693200047B844 /* AppDelegate.m */; };
+		378676B4204693200047B844 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 378676B3204693200047B844 /* ViewController.m */; };
+		378676B7204693200047B844 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 378676B5204693200047B844 /* Main.storyboard */; };
+		378676B9204693200047B844 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 378676B8204693200047B844 /* Assets.xcassets */; };
+		378676BC204693200047B844 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 378676BA204693200047B844 /* LaunchScreen.storyboard */; };
+		378676BF204693200047B844 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 378676BE204693200047B844 /* main.m */; };
+		378676C7204693990047B844 /* GQMultifunctionButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 378676C6204693990047B844 /* GQMultifunctionButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		378676AC204693200047B844 /* GQMultifunctionButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GQMultifunctionButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		378676AF204693200047B844 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		378676B0204693200047B844 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		378676B2204693200047B844 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		378676B3204693200047B844 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		378676B6204693200047B844 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		378676B8204693200047B844 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		378676BB204693200047B844 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		378676BD204693200047B844 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		378676BE204693200047B844 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		378676C5204693990047B844 /* GQMultifunctionButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GQMultifunctionButton.h; sourceTree = "<group>"; };
+		378676C6204693990047B844 /* GQMultifunctionButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GQMultifunctionButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		378676A9204693200047B844 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		378676A3204693200047B844 = {
+			isa = PBXGroup;
+			children = (
+				378676AE204693200047B844 /* GQMultifunctionButton */,
+				378676AD204693200047B844 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		378676AD204693200047B844 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				378676AC204693200047B844 /* GQMultifunctionButton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		378676AE204693200047B844 /* GQMultifunctionButton */ = {
+			isa = PBXGroup;
+			children = (
+				378676AF204693200047B844 /* AppDelegate.h */,
+				378676B0204693200047B844 /* AppDelegate.m */,
+				378676B2204693200047B844 /* ViewController.h */,
+				378676B3204693200047B844 /* ViewController.m */,
+				378676C5204693990047B844 /* GQMultifunctionButton.h */,
+				378676C6204693990047B844 /* GQMultifunctionButton.m */,
+				378676B5204693200047B844 /* Main.storyboard */,
+				378676B8204693200047B844 /* Assets.xcassets */,
+				378676BA204693200047B844 /* LaunchScreen.storyboard */,
+				378676BD204693200047B844 /* Info.plist */,
+				378676BE204693200047B844 /* main.m */,
+			);
+			path = GQMultifunctionButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		378676AB204693200047B844 /* GQMultifunctionButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 378676C2204693200047B844 /* Build configuration list for PBXNativeTarget "GQMultifunctionButton" */;
+			buildPhases = (
+				378676A8204693200047B844 /* Sources */,
+				378676A9204693200047B844 /* Frameworks */,
+				378676AA204693200047B844 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GQMultifunctionButton;
+			productName = GQMultifunctionButton;
+			productReference = 378676AC204693200047B844 /* GQMultifunctionButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		378676A4204693200047B844 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = lgq;
+				TargetAttributes = {
+					378676AB204693200047B844 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 378676A7204693200047B844 /* Build configuration list for PBXProject "GQMultifunctionButton" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 378676A3204693200047B844;
+			productRefGroup = 378676AD204693200047B844 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				378676AB204693200047B844 /* GQMultifunctionButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		378676AA204693200047B844 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				378676BC204693200047B844 /* LaunchScreen.storyboard in Resources */,
+				378676B9204693200047B844 /* Assets.xcassets in Resources */,
+				378676B7204693200047B844 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		378676A8204693200047B844 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				378676B4204693200047B844 /* ViewController.m in Sources */,
+				378676C7204693990047B844 /* GQMultifunctionButton.m in Sources */,
+				378676BF204693200047B844 /* main.m in Sources */,
+				378676B1204693200047B844 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		378676B5204693200047B844 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				378676B6204693200047B844 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		378676BA204693200047B844 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				378676BB204693200047B844 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		378676C0204693200047B844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		378676C1204693200047B844 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		378676C3204693200047B844 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PLTT4Z4US7;
+				INFOPLIST_FILE = GQMultifunctionButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = s.GQMultifunctionButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		378676C4204693200047B844 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PLTT4Z4US7;
+				INFOPLIST_FILE = GQMultifunctionButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = s.GQMultifunctionButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		378676A7204693200047B844 /* Build configuration list for PBXProject "GQMultifunctionButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				378676C0204693200047B844 /* Debug */,
+				378676C1204693200047B844 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		378676C2204693200047B844 /* Build configuration list for PBXNativeTarget "GQMultifunctionButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				378676C3204693200047B844 /* Debug */,
+				378676C4204693200047B844 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 378676A4204693200047B844 /* Project object */;
+}
